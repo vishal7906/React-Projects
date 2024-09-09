@@ -1,6 +1,8 @@
+/* eslint-disable no-unused-vars */
 import React from 'react'
 
-function Card({username, btnText="visit me"}) {
+// eslint-disable-next-line react/prop-types
+function Card({username, btnText}) {
     console.log(username);
   return (
     <div className="relative h-[400px] w-[300px] rounded-md ">
